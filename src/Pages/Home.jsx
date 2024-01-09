@@ -85,7 +85,7 @@ const Home = () => {
         <div className='conteudo-principal align destaque'>
 
             <p ref={textToTypeRef} className={`text-gradiente texto-principal ${desabilitado} `}>
-                Olá, eu me chamo Alexandre Pereira e você como se chama?
+                Olá, eu me chamo Alexandre Pereira e você como se chama????
             </p>
 
             <>
