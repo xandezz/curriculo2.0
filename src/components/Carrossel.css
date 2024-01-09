@@ -1,0 +1,14 @@
+.carrossel-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 15px;
+}
+
+.borda{
+    height: 20px;
+    width: 100vw;
+}

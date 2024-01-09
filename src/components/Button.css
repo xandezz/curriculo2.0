@@ -1,0 +1,10 @@
+.button-convidado {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 1.3em;
+    border: transparent;
+    box-shadow: 5px 0 10px -3px #FFCC70, 0 0 5px #C850C0, 0 0 15px #4158D0;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
