@@ -11,20 +11,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 6vh;
+    color: #FFCC70;
 }
-
-.text-gradiente {
-    background-image: linear-gradient(90deg,
-        #4158D0 15%,
-        #C850C0 45%,
-        #FFCC70 75%);
-    -moz-background-clip: text;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
 
 .conteudo-principal {
     height: 90vh;
