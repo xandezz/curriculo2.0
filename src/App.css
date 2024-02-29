@@ -11,7 +11,7 @@
 
 body {
     overflow-x: hidden;
-    background: url(../../public/background.jpeg) no-repeat center center;
+    background-image: url(../../public/background.jpeg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: var(--amarelo)
