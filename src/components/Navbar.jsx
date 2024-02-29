@@ -18,7 +18,7 @@ const Navbar = ({status, closeMobileMenu}) => {
             <nav className='text-gradiente'>
                 <p className='logo' onClick={closeMobileMenu}><Link to='/'>Alexandre Pereira</Link></p>
                 <div className='navbar-icones'>
-                    <a href="https://www.linkedin.com/in/alexandre-pereira-queiroz-de-souza/" target='_blank'>
+                    <a href="https://contate.me/alexandrepereira" target='_blank'>
                     <FontAwesomeIcon icon={['fab', 'whatsapp']} className='icone fa-lg' 
                     onClick={closeMobileMenu}
                     />
