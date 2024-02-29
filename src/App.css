@@ -11,7 +11,7 @@
 
 body {
     overflow-x: hidden;
-    background: url(andrew-kliatskyi-9l_R8EBQ7-c-unsplash.jpg) no-repeat center center;
+    background: url(background.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: var(--amarelo)
