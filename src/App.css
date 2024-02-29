@@ -11,11 +11,11 @@
 
 body {
     overflow-x: hidden;
-    background: url(background.jpeg) no-repeat center center;
+    background: url(../../public/background.jpeg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: var(--amarelo)
-    
+
 }
 
 .conteudo-principal {
