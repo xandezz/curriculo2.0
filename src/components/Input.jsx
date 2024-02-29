@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Input.css"
 
 const Input = ({type, placeholder, className,value,onChange,onKeyDown,name,id,autoComplete,required}) => {
     return (

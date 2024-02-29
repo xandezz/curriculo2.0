@@ -1,0 +1,62 @@
+.input-convidado {
+    margin-top: 15px;
+    width: 350px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 0.8em;
+    text-align: center;
+    caret-color: #fff;
+    border: 1px solid var(--amarelo);
+    background: transparent;
+    color: var(--amarelo);
+}
+
+.input-convidado:focus {
+    outline: none;
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .input-convidado {
+        width: 330px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .input-convidado {
+        width: 320px;
+        font-size: 23px;
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .input-convidado {
+        width: 300px;
+        font-size: 21px;
+    }
+}
+@media (min-width:481px) and (max-width:620px) {
+    .input-convidado {
+        width: 280px;
+        font-size: 19px;
+    }
+}
+@media (min-width:421px) and (max-width:480px) {
+    .input-convidado {
+        width: 270px;
+        font-size: 18px;
+    }
+}
+@media (min-width:360px) and (max-width:420px) {
+    .input-convidado {
+        width: 265px;
+        font-size: 17px;
+    }
+}
+@media (min-width:280px) and (max-width:359px) {
+    .input-convidado {
+        width: 240px;
+        font-size: 15px;
+    }
+}
+

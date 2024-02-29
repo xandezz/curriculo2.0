@@ -4,11 +4,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     padding-top: 15px;
+    gap: 40px;
 }
 
-.borda{
-    height: 20px;
-    width: 100vw;
+@media (max-width: 768px){
+    .carrossel-container {
+        padding-top: 100px   
+    }
+}
+
+@media (max-width: 480px){
+    .carrossel-container {
+        padding-top:80px   
+    }
 }

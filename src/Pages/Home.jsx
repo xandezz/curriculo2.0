@@ -2,16 +2,17 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from "react-router-dom";
 import './Home.css';
 import Button from '../components/Button';
+import Input from '../components/Input';
 
 const Home = () => {
     const [nome, setNome] = useState(() => {
         return sessionStorage.getItem('nome') || '';
     });
-    
+
     const [desabilitado, setDesabilitado] = useState(() => {
         return sessionStorage.getItem('desabilitado') || '';
     });
-    
+
     const [escritaCompleta, setEscritaCompleta] = useState(false);
     const [escritaCompletaWelcome, setEscritaCompletaWelcome] = useState(true);
     const [novoTextoVisivel, setNovoTextoVisivel] = useState(false);
@@ -82,32 +83,32 @@ const Home = () => {
 
 
     return (
-        <div className='conteudo-principal align destaque'>
+        <div className='conteudo-principal align destaque home-conteudo'>
 
-            <p ref={textToTypeRef} className={`text-gradiente texto-principal ${desabilitado} `}>
-                Olá, eu me chamo Alexandre Pereira e você como se chama????
+            <p ref={textToTypeRef} className={`texto-principal ${desabilitado} `}>
+                Olá, eu me chamo Alexandre Pereira e você como se chama?
             </p>
 
             <>
-                {desabilitado === '' ? ( 
+                {desabilitado === '' ? (
                     escritaCompleta && (
                         <div className='align'>
-                            <input
+                            <Input
                                 type="text"
                                 placeholder='Digite seu nome'
-                                className='input-convidado text-gradiente '
+                                className='input-convidado'
                                 value={nome}
                                 onChange={(e) => setNome(e.target.value)}
                                 onKeyDown={(e) => { if (e.key === 'Enter') handleButtonClick() }}
                                 name='nome-convidado'
                                 id='nome-convidado'
                                 autoComplete='off'
-                            /> 
-                            <Button 
-                            className={'text-gradiente button-convidado'}
-                            onClick={handleButtonClick}
-                            type={'button'}
-                            texto={"Enviar"}
+                            />
+                            <Button
+                                className={'button-convidado'}
+                                onClick={handleButtonClick}
+                                type={'button'}
+                                texto={"Enviar"}
                             />
                         </div>
                     )
@@ -116,20 +117,12 @@ const Home = () => {
                     (
                         <div className='container-boasvindas'>
                             {escritaCompletaWelcome && (<div className='item-container-boasvindas'></div>)}
-                            <p ref={welcomeTextRef} className='text-gradiente texto-principal'>
+                            <p ref={welcomeTextRef} className=' texto-principal'>
                                 Olá {nome}, seja bem-vindo(a) ao meu portfólio, fique à vontade para dar uma olhada nos meus projetos!
                             </p>                {escritaCompletaWelcome && (
                                 <div className={` ${desabilitado === '' ? 'desabilitado' : ''}`}>
-                                    <Link className='text-gradiente button-convidado ' to='/projects'>Projetos</Link>
-                                    {/* <button className='text-gradiente button-convidado'onClick={handleButtonClick}type='button'>Alterar nome</button>-->*/}
-                                    <div className="sobremim-container">
-                                        <h1>Sobre mim</h1>
-                                        <div className='sobremim-conteudo'>
-                                            <img className='sobremim-foto' src="
-                                perfil.jpeg" alt="Minha foto" />
-                                            <p>Sou estudante de Ciências da Computação(6º período) e desenvolvedor Front-end React. Além disso, estou explorando o mundo do UX Design. Meu objetivo é integrar meu conhecimento em Ciências da Computação e meu crescente interesse em UX Design para contribuir significativamente no desenvolvimento de soluções tecnológicas inovadoras. Sou comprometido em todas as minhas ações, altamente criativo e estou constantemente em busca de aprimorar minhas habilidades. Atualmente, estou no processo de criar minhas primeiras aplicações React e compartilhar conhecimento à medida que o construo.</p>
-                                        </div>
-                                    </div>
+                                    <Link className=' button-convidado ' to='/projects'>Projetos</Link>
+                                    <Link className=' button-convidado ' to='/sobremim'>Sobre mim</Link>
                                 </div>
                             )}
                         </div>

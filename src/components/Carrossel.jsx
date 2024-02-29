@@ -3,12 +3,10 @@ import React from "react";
 import Card from "../components/Card";
 import './Carrossel.css'
 
-const Carrossel = () => { 
+const Carrossel = () => {
   return (
     <div className="carrossel-container">
-      <spam className="borda"></spam>
-      <Card nome="clique no card" descricao="Este é um market place" backgroundURL="neom-gVDUuJaG_wM-unsplash.jpg" />
-      <spam className="borda"></spam>
+      <Card nome="Portifolio psicologa" descricao="Este é um market place" backgroundURL="portifoliopsicologa.jpeg" url={"https://master--psiflavialuiza.netlify.app/"} />
     </div>
   );
 };

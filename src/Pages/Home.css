@@ -3,23 +3,6 @@
     text-align: center;
 }
 
-.input-convidado {
-    margin-top: 15px;
-    width: 350px;
-    padding: 10px;
-    font-size: 30px;
-    border-radius: 0.8em;
-    text-align: center;
-    caret-color: #fff;
-    border: transparent;
-    box-shadow: 10px 0 15px -5px #FFCC70, 0 0 10px #C850C0, 0 0 20px #4158D0;
-}
-
-.input-convidado:focus {
-    outline: none;
-}
-
-
 .desabilitado {
     display: none;
 }
@@ -28,7 +11,7 @@
     padding: 10px 100px;
 }
 
-.container-boasvindas{
+.container-boasvindas {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,28 +19,92 @@
     margin-bottom: 15px;
 }
 
-.item-container-boasvindas{
-    flex: 1;
-}
-.sobremim-container {
-    margin: 20px 0px;
-    text-align: center;
-    font-size: 24px;
-    padding: 0 10%;
-    color: #fff
+@media (min-width:1025px) and (max-width:1200px) {
+    .destaque {
+        font-size: 45px;
+    }
+
+    .texto-principal {
+        padding: 10px 100px;
+    }
 }
 
-.sobremim-conteudo {
-    display: flex;
-    align-items: center;
+@media (min-width:769px) and (max-width:1024px) {
+    .destaque {
+        font-size: 40px;
+    }
+
+    .texto-principal {
+        padding: 10px 100px;
+    }
 }
 
-.sobremim-foto {
-    width: 14%;
-    border-radius: 20%;
-    box-shadow:
-        5px 0 10px -3px #FFCC70,
-        0 0 5px #C850C0,
-        0 0 15px #4158D0;
-    margin-right: 10px;
+@media (min-width:621px) and (max-width:768px) {
+    .home-conteudo{
+        padding-top: 150px;
+    }
+
+    .destaque {
+        font-size: 35px;
+    }
+
+    .texto-principal {
+        padding: 10px 50px;
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .home-conteudo{
+        padding-top: 140px;
+    }
+
+    .destaque {
+        font-size: 30px;
+    }
+
+    .texto-principal {
+        padding: 5px 40px;
+    }
+}
+
+@media (min-width:421px) and (max-width:620px) {
+    .home-conteudo{
+        padding-top: 130px;
+    }
+
+    .destaque {
+        font-size: 25px;
+    }
+
+    .texto-principal {
+        padding: 5px 40px;
+    }
+}
+
+@media (min-width:360px) and (max-width:420px) {
+    .home-conteudo{
+        padding-top: 120px;
+    }
+
+    .destaque {
+        font-size: 24px;
+    }
+
+    .texto-principal {
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width:280px) and (max-width:359px) {
+    .home-conteudo{
+        padding-top: 120px;
+    }
+
+    .destaque {
+        font-size: 22px;
+    }
+
+    .texto-principal {
+        padding: 5px 10px;
+    }
 }

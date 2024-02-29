@@ -3,12 +3,10 @@ import './Projects.css'
 
 const Projects = () => {
     return (
-        <div className='conteudo-principal text-gradiente align'>
-            <div className='scrollable-content'>
-                <Carrossel />
-            </div>
+        <div className='align'>
+            <Carrossel />
         </div>
     )
 }
- 
+
 export default Projects

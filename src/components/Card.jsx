@@ -1,28 +1,23 @@
 import React, { useState } from 'react';
 import './Card.css';
 
-const Card = ({nome, descricao, backgroundURL}) => {
-  const [isFlipped, setFlipped] = useState(false);
+const Card = ({ nome, backgroundURL, url }) => {
 
-  const handleCardClick = () => {
-    setFlipped(!isFlipped); 
-  };
 
   return (
-    <div className={`container-card ${isFlipped ? 'flipped' : ''}`} onClick={handleCardClick}>
+    <div className="container-card">
       <div className='card'>
-        <div 
-        className='front' 
-        style={{ backgroundImage: `url(${backgroundURL})` }}>
-          <h2 className='text-gradiente texto-card'>
+        <a
+          className='conteudo-card'
+          style={{ backgroundImage: `url(${backgroundURL})` }}
+          href={url}
+          target='_blank'
+          >
+            
+        </a>
+        <h2 className='texto-card'>
             {nome}
           </h2>
-        </div>
-        <div className='back'>
-          <div className='texto-card text-gradiente'>
-            <p>{descricao}</p>
-          </div>
-        </div>
       </div>
     </div>
   );

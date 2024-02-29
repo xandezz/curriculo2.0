@@ -2,10 +2,43 @@
     margin: 15px;
     padding: 10px;
     border-radius: 1.3em;
-    border: transparent;
-    box-shadow: 5px 0 10px -3px #FFCC70, 0 0 5px #C850C0, 0 0 15px #4158D0;
+    border: 1px solid var(--amarelo);
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
-    
+    background: transparent;
+    color: var(--amarelo);
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .button-convidado {
+        font-size: 19px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .button-convidado {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .button-convidado {
+        font-size: 17px;
+    }
+}
+@media (min-width:481px) and (max-width:620px) {
+    .button-convidado {
+        font-size: 16px;
+    }
+}
+@media (min-width:421px) and (max-width:480px) {
+    .button-convidado {
+        font-size: 15px;
+    }
+}
+@media (min-width:280px) and (max-width:359px) {
+    .button-convidado {
+        font-size: 13px;
+    }
 }

@@ -5,13 +5,16 @@
     box-sizing: border-box;
 }
 
+:root{
+    --amarelo: #FFCC70;
+}
+
 body {
     overflow-x: hidden;
     background: url(andrew-kliatskyi-9l_R8EBQ7-c-unsplash.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 6vh;
-    color: #FFCC70;
+    color: var(--amarelo)
 }
 
 .conteudo-principal {

@@ -1,13 +1,10 @@
-
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 6vh;
-    position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000; 
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -15,6 +12,7 @@ nav a {
     transition: 0.4s;
     letter-spacing: 2px;
     margin: 10px;
+    color: var(--amarelo);
 }
 
 .nav-list {
@@ -27,42 +25,37 @@ nav a {
     letter-spacing: 4px;
 }
 
-/* NAVBAR RESPONSIVA */
-
-.mobile-menu {
-    cursor: pointer;
-    display: none;
+.navbar-icones {
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
 }
 
-.mobile-menu::after {
-    content: ' ☰ ';
-    ;
+@media (min-width:769px) and (max-width:1024px) {
+    .navbar-icones {
+        padding-left: 20px;
+    }
 }
 
+@media (max-width: 768px) {
+    .mobile-desativado {
+        display: none;
+    }
 
-
-@media (max-width: 999px) {
-
-    
-    .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
+    nav {
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
+        gap: 100px;
     }
 
-  
-
-    .active {
-        transform: translateX(0);
+    .navbar-icones{
+        padding-left: 0;
+        gap: 80px;
     }
+}
 
-    .mobile-menu {
-        display: block;
+@media (max-width: 421px) {
+    .navbar-icones{
+        padding-left: 0;
+        gap: 50px;
     }
 }
