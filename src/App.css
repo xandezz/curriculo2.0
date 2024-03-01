@@ -5,21 +5,21 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --amarelo: #FFCC70;
 }
 
 body {
     overflow-x: hidden;
+    background-color: #000;
     background: url(https://devalexandrepereira.netlify.app/background.jpeg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: var(--amarelo)
-
 }
 
 .conteudo-principal {
-    height: 90vh;
+    height: 95vh;
 }
 
 .align {
