@@ -27,6 +27,8 @@
 
     .texto-principal {
         padding: 10px 100px;
+    }
+    .texto-secundario{
         margin-bottom: 15px;
     }
 }
@@ -38,13 +40,15 @@
 
     .texto-principal {
         padding: 10px 100px;
+    }
+    .texto-secundario{
         margin-bottom: 15px;
     }
 }
 
 @media (min-width:621px) and (max-width:768px) {
     .home-conteudo {
-        padding-top: 150px;
+        padding-top: 75px;
     }
 
     .destaque {
@@ -53,13 +57,16 @@
 
     .texto-principal {
         padding: 10px 50px;
+    }
+
+    .texto-secundario{
         margin-bottom: 15px;
     }
 }
 
 @media (min-width:481px) and (max-width:620px) {
     .home-conteudo {
-        padding-top: 140px;
+        padding-top: 70px;
     }
 
     .destaque {
@@ -68,14 +75,15 @@
 
     .texto-principal {
         padding: 10px 40px;
+    }
+    .texto-secundario{
         margin-bottom: 15px;
-
     }
 }
 
 @media (min-width:421px) and (max-width:620px) {
     .home-conteudo {
-        padding-top: 130px;
+        padding-top: 65px;
     }
 
     .destaque {
@@ -84,13 +92,16 @@
 
     .texto-principal {
         padding: 5px 40px;
-        margin-bottom: 20px;
+    }
+
+    .texto-secundario{
+        margin-bottom: 15px;
     }
 }
 
 @media (min-width:360px) and (max-width:420px) {
     .home-conteudo {
-        padding-top: 120px;
+        padding-top: 60px;
     }
 
     .destaque {
@@ -99,13 +110,16 @@
 
     .texto-principal {
         padding: 5px 10px;
-        margin-bottom: 20px;
+    }
+
+    .texto-secundario{
+        margin-bottom: 15px;
     }
 }
 
 @media (min-width:280px) and (max-width:359px) {
     .home-conteudo {
-        padding-top: 120px;
+        padding-top:60px;
     }
 
     .destaque {
@@ -114,6 +128,8 @@
 
     .texto-principal {
         padding: 5px 10px;
-        margin-bottom: 20px;
+    }
+    .texto-secundario{
+        margin-bottom: 15px;
     }
 }

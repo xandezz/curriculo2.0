@@ -117,7 +117,7 @@ const Home = () => {
                     (
                         <div className='container-boasvindas'>
                             {escritaCompletaWelcome && (<div className='item-container-boasvindas'></div>)}
-                            <p ref={welcomeTextRef} className=' texto-principal'>
+                            <p ref={welcomeTextRef} className=' texto-principal texto-secundario'>
                                 Olá {nome}, seja bem-vindo(a) ao meu portfólio, fique à vontade para dar uma olhada nos meus projetos!
                             </p>                {escritaCompletaWelcome && (
                                 <div className={` ${desabilitado === '' ? 'desabilitado' : ''}`}>
