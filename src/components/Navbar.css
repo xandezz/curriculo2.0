@@ -19,10 +19,20 @@ nav a {
     display: flex;
 }
 
-.logo {
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-alexandre {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
+
+}
+
+.logo {
+    width: 60px;
 }
 
 .navbar-icones {
@@ -34,6 +44,10 @@ nav a {
 @media (min-width:769px) and (max-width:1024px) {
     .navbar-icones {
         padding-left: 20px;
+    }
+
+    .logo {
+        width: 50px;
     }
 }
 
@@ -47,15 +61,21 @@ nav a {
         gap: 100px;
     }
 
-    .navbar-icones{
+    .navbar-icones {
         padding-left: 0;
         gap: 80px;
     }
 }
 
 @media (max-width: 421px) {
-    .navbar-icones{
+    .navbar-icones {
         padding-left: 0;
         gap: 50px;
+    }
+}
+
+@media (max-width: 359px) {
+    .logo {
+        width: 45px;
     }
 }
