@@ -16,7 +16,7 @@ const Navbar = ({status, closeMobileMenu}) => {
     return (
         <header className={status}>
             <nav className='text-gradiente'>
-                <p className='logo-alexandre' onClick={closeMobileMenu}><Link to='/' className='logo-container'><img src="public/logo.png" alt="logo" className='logo'/>Alexandre Pereira</Link></p>
+                <p className='logo-alexandre' onClick={closeMobileMenu}><Link to='/' className='logo-container'><img src="https://devalexandrepereira.netlify.app/logo.png" alt="logo" className='logo'/>Alexandre Pereira</Link></p>
                 <div className='navbar-icones'>
                     <a href="https://contate.me/alexandrepereira" target='_blank'>
                     <FontAwesomeIcon icon={['fab', 'whatsapp']} className='icone fa-lg' 
