@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Sobremim = () => {
     return (
-        <div className="conteudo-principal sobremim-container align">
+        <div className=" sobremim-container align">
 
             <div className='sobremim-conteudo align'>
                 <img className='sobremim-foto' src="
