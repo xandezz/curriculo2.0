@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Sobremim = () => {
     return (
         <div className="conteudo-principal sobremim-container align">
-            <h1 className='sobremim-titulo'>Sobre mim</h1>
+
             <div className='sobremim-conteudo align'>
                 <img className='sobremim-foto' src="
                 perfil.jpeg" alt="Minha foto" />
@@ -15,7 +15,7 @@ const Sobremim = () => {
 
             </div>
             <p className='email'>
-                <FontAwesomeIcon icon="envelope" className='email-icone'/>
+                <FontAwesomeIcon icon="envelope" className='email-icone' />
                 alexandrepqueiroz29@gmail.com
             </p>
 

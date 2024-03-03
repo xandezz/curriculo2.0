@@ -1,5 +1,6 @@
 .mobile-menu::after {
     content: ' ☰ ';
+    font-size: 23px;
 }
 
 .mobile-menu-container {
