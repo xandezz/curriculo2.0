@@ -6,7 +6,7 @@ import './Carrossel.css'
 const Carrossel = () => {
   return (
     <div className="carrossel-container">
-      <Card nome="Portifolio psicologa" descricao="Este é um market place" backgroundURL="portifoliopsicologa.jpeg" url={"https://master--psiflavialuiza.netlify.app/"} />
+      <Card nome="Portifólio psicologa" descricao="Este é um market place" backgroundURL="portifoliopsicologa.jpeg" url={"https://master--psiflavialuiza.netlify.app/"} />
     </div>
   );
 };
