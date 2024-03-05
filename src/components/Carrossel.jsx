@@ -6,8 +6,8 @@ import './Carrossel.css'
 const Carrossel = () => {
   return (
     <div className="carrossel-container">
-      <Card nome="Portifólio psicologa" descricao="Este é um market place" backgroundURL="Logo.png" url={"https://master--psiflavialuiza.netlify.app/"} 
-      alt={"imagem do portifolio"}/>
+      <Card nome="Portifólio psicologa" descricao="Este é um market place" backgroundURL="/portifoliopsicologa.png" url={"https://master--psiflavialuiza.netlify.app/"}
+        alt={"imagem do portifolio"} />
     </div>
   );
 };
