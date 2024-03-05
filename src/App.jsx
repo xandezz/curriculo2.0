@@ -25,7 +25,7 @@ function App() {
       <Mobilenavbar status={"mobile-ativo"}/>
       <Navbar status={"mobile-desativado"}/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/curriculo2.0" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/sobremim" element={<Sobremim />} />
       </Routes>
