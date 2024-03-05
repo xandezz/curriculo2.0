@@ -12,7 +12,7 @@
 body {
     overflow-x: hidden;
     background-color: #000;
-    background: url(https://devalexandrepereira.netlify.app/background.jpeg) no-repeat center center;
+    background: url('background.jpeg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: var(--amarelo)

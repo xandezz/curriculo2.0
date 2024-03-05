@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './Card.css';
 
 const Card = ({ nome, backgroundURL, url }) => {
@@ -9,7 +8,7 @@ const Card = ({ nome, backgroundURL, url }) => {
       <div className='card'>
         <a
           className='conteudo-card'
-          style={{ backgroundImage: `url(${backgroundURL})` }}
+          style={{ backgroundImage: `url(${"'"+backgroundURL+ "'"})` }}
           href={url}
           target='_blank'
           >
