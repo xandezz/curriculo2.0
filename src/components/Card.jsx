@@ -1,22 +1,24 @@
 import './Card.css';
 
-const Card = ({ nome, backgroundURL, url }) => {
+const Card = ({ nome, backgroundURL, url, alt }) => {
 
 
   return (
     <div className="container-card">
       <div className='card'>
         <a
-          className='conteudo-card'
-          style={{ backgroundImage: `url(${"'"+backgroundURL+ "'"})` }}
           href={url}
           target='_blank'
-          >
-            
+        >
+          <img
+            src={backgroundURL} className='conteudo-card'
+            alt={alt}
+          />
         </a>
+
         <h2 className='texto-card'>
-            {nome}
-          </h2>
+          {nome}
+        </h2>
       </div>
     </div>
   );
