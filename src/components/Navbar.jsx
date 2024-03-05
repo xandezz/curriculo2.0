@@ -36,8 +36,8 @@ const Navbar = ({ status, closeMobileMenu }) => {
                 </div>
                 <div className={active} >
                     <Link to='/curriculo2.0' onClick={closeMobileMenu}>Home</Link>
-                    <Link to='/projects' onClick={closeMobileMenu}>Projetos</Link>
-                    <Link to='/sobremim' onClick={closeMobileMenu}>Sobre mim</Link>
+                    <Link to='/curriculo2.0/projects' onClick={closeMobileMenu}>Projetos</Link>
+                    <Link to='/curriculo2.0/sobremim' onClick={closeMobileMenu}>Sobre mim</Link>
                 </div>
             </nav>
         </header>

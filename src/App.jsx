@@ -25,8 +25,8 @@ function App() {
       <Navbar status={"mobile-desativado"}/>
       <Routes>
         <Route path="/curriculo2.0" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/sobremim" element={<Sobremim />} />
+        <Route path="/curriculo2.0/projects" element={<Projects />} />
+        <Route path="/curriculo2.0/sobremim" element={<Sobremim />} />
       </Routes>
     </BrowserRouter>
   )
