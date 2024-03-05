@@ -123,7 +123,7 @@
     }
 }
 
-@media (min-width:280px) and (max-width:359px) {
+@media (max-width:359px) {
     .home-conteudo {
         padding-top:60px;
     }

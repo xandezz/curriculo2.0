@@ -53,7 +53,7 @@
         font-size: 17px;
     }
 }
-@media (min-width:280px) and (max-width:359px) {
+@media (max-width:359px) {
     .input-convidado {
         width: 240px;
         font-size: 15px;

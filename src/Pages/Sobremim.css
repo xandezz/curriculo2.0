@@ -229,7 +229,7 @@
     }
 }
 
-@media (min-width:280px) and (max-width:359px) {
+@media (max-width:359px) {
     .sobremim-container {
         font-size: 12px;
         padding-top: 85px;
