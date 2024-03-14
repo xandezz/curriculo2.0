@@ -121,8 +121,8 @@ const Home = () => {
                                 Olá {nome}, seja bem-vindo(a) ao meu portfólio, fique à vontade para dar uma olhada nos meus projetos!
                             </p>                {escritaCompletaWelcome && (
                                 <div className={` ${desabilitado === '' ? 'desabilitado' : ''}`}>
-                                    <Link className=' button-convidado ' to='/projects'>Projetos</Link>
-                                    <Link className=' button-convidado ' to='/sobremim'>Sobre mim</Link>
+                                    <Link className=' button-convidado ' to='/curriculo2.0/projects'>Projetos</Link>
+                                    <Link className=' button-convidado ' to='/curriculo2.0/sobremim'>Sobre mim</Link>
                                 </div>
                             )}
                         </div>
